@@ -39,7 +39,7 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="w-full md:w-2/3 space-y-6 font-inter text-white"
+        className="w-full md:w-2/3 font-inter text-white mt-[-1rem] md:mt-0 space-y-6"
       >
         <p className="text-lg md:text-xl leading-relaxed">
           <span className="font-bold">At Venon Digital Solutions</span>, we don’t just design websites - we design with power, strategize with purpose, and deliver results for businesses ready to lead and dominate.
