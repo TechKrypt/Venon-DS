@@ -46,10 +46,10 @@ export default function MobileMenu({ isOpen, onClose }) {
 
         {/* Social Icons */}
         <div className="flex justify-end gap-6 pt-6">
-          <a href="#" className="text-black hover:text-[#bc1823]"><FaFacebookF size={30} /></a>
-          <a href="#" className="text-black hover:text-[#bc1823]"><FaInstagram size={30} /></a>
+          <a href="https://facebook.com/venonds/" className="text-black hover:text-[#bc1823]"><FaFacebookF size={30} /></a>
+          <a href="https://www.instagram.com/venondigital/" className="text-black hover:text-[#bc1823]"><FaInstagram size={30} /></a>
           <a href="#" className="text-black hover:text-[#bc1823]"><FaXTwitter size={30} /></a>
-          <a href="#" className="text-black hover:text-[#bc1823]"><FaLinkedinIn size={30} /></a>
+          <a href="https://www.linkedin.com/company/venon-digital-solutions" className="text-black hover:text-[#bc1823]"><FaLinkedinIn size={30} /></a>
         </div>
       </div>
 

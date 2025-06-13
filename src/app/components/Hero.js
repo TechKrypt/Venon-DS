@@ -2,11 +2,13 @@
 
 export default function Hero() {
   return (
+
     <section
-      id="hero"
-      className="relative w-full h-screen bg-cover bg-no-repeat bg-[left_-150px] flex items-center justify-start px-6 md:px-28 text-white"
-      style={{ backgroundImage: "url('/VRNG (6).png')" }}
-    >
+  id="hero"
+  className="relative w-full h-screen bg-cover bg-center bg-no-repeat flex items-center justify-start px-6 md:px-28 text-white"
+  style={{ backgroundImage: "url('/VRNG (6).png')" }}
+>
+
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/70 z-10" />
 
