@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative w-full h-screen bg-cover bg-[left_-150px] flex items-center justify-start px-6 md:px-28 text-white"
+      className="relative w-full h-screen bg-cover bg-no-repeat bg-[left_-150px] flex items-center justify-start px-6 md:px-28 text-white"
       style={{ backgroundImage: "url('/VRNG (6).png')" }}
     >
       {/* Overlay */}
@@ -12,7 +12,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-20 max-w-4xl space-y-6 text-left">
-        <h1 className="text-[2rem] sm:text-5xl md:text-7xl xl:text-8xl font-extrabold font-poppins leading-[1.1] tracking-tight">
+        <h1 className="text-[2rem] sm:text-6xl md:text-7xl xl:text-8xl font-extrabold font-poppins leading-[1.1] tracking-tight">
           <span className="block">BOLD.</span>
           <span className="block">FUNCTIONAL.</span>
           <span className="block">POWERFUL.</span>
