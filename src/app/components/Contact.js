@@ -95,10 +95,10 @@ export default function Contact() {
           <div>
             <h4 className="text-xl font-extrabold mb-2">Social Media</h4>
             <div className="flex gap-5 text-lg">
-              <a href="#"><FaFacebookF /></a>
-              <a href="#"><FaInstagram /></a>
+              <a href="https://facebook.com/venonds/"><FaFacebookF /></a>
+              <a href="https://www.instagram.com/venondigital/"><FaInstagram /></a>
               <a href="#"><FaXTwitter /></a>
-              <a href="#"><FaLinkedinIn /></a>
+              <a href="https://www.linkedin.com/company/venon-digital-solutions"><FaLinkedinIn /></a>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <section id="about" className="w-full bg-black text-white pt-6 sm:pt- md:pt-16 pb-16 px-4 sm:px-6 md:px-10 flex flex-col md:flex-row items-start md:items-center justify-center gap-10"
+    <section id="about" className="w-full bg-black text-white pt-6 sm:pt-8 md:pt-16 pb-16 px-4 sm:px-6 md:px-10 flex flex-col md:flex-row items-start md:items-center justify-center gap-10"
     >
 
       {/* ABOUT Heading (Visible Only on Desktop) */}
@@ -42,11 +42,11 @@ export default function About() {
         className="w-full md:w-2/3 space-y-6 font-inter text-white"
       >
         <p className="text-lg md:text-xl leading-relaxed">
-          <span className="font-bold">At Venon Digital Solutions</span>, we don’t just design websites — we design with power, strategize with purpose, and deliver results for businesses ready to lead and dominate.
+          <span className="font-bold">At Venon Digital Solutions</span>, we don’t just design websites - we design with power, strategize with purpose, and deliver results for businesses ready to lead and dominate.
         </p>
 
         <p className="text-lg md:text-xl leading-relaxed">
-          By blending strategy, design, and education, we create platforms that don’t just look good — they work hard, connect deeper, and drive results.
+          By blending strategy, design, and education, we create platforms that look good, work hard, connect deeper, and drive results.
         </p>
 
         <p className="text-lg md:text-xl leading-relaxed">
@@ -58,7 +58,7 @@ export default function About() {
         </p>
 
         <p className="text-lg md:text-xl leading-relaxed">
-          And when we’re done, we don’t just hand you the keys — we empower you to grow. Because at Venon, it’s not just design.
+          And when we’re done, we don’t just hand you the keys - we empower you to grow. Because at Venon, it’s not just design.
         </p>
       </motion.div>
     </section>
