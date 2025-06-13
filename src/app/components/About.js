@@ -4,10 +4,9 @@ import { motion } from 'framer-motion';
 
 export default function About() {
   return (
-    <section
-      id="about"
-      className="w-full bg-black text-white pt-6 md:pt-16 pb-16 px-6 md:px-10 flex flex-col md:flex-row items-start md:items-center justify-center gap-10"
+    <section id="about" className="w-full bg-black text-white pt-6 sm:pt-8 md:pt-16 pb-16 px-4 sm:px-6 md:px-10 flex flex-col md:flex-row items-start md:items-center justify-center gap-10"
     >
+
       {/* ABOUT Heading (Visible Only on Desktop) */}
       <motion.div
         initial={{ opacity: 0, x: -50 }}
